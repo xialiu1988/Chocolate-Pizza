@@ -5,6 +5,9 @@ body{
    padding-left:200px;
    padding-right:200px;
 }
+main{
+    padding-top:20px;
+}
 
 #fork{
    margin-left:-270px;
@@ -15,11 +18,14 @@ h2{
 position: absolute;
  margin-left:50px;
  margin-top: -3px;
+ font-family: 'Yellowtail', cursive;
 
 }
 h4{
  
     float:left; 
+   
+    font-family: 'Maven Pro', sans-serif;
     margin-top:10px;
     margin-left:50px;
 
@@ -44,12 +50,20 @@ margin-right:100px;
     /* position: relative; */
     }
 
+ 
+    header{
 
+      padding-bottom:10px;
+
+    }
+
+
+/* 
    header{
 
 glyph-orientation-horizontal: 2px,solid gray;
 
-    }
+    } */
 
 
  .print{
@@ -61,7 +75,7 @@ glyph-orientation-horizontal: 2px,solid gray;
  }
 
 a{
-    font-size:7px;
+    font-size:9px;
 }
 
 
@@ -75,14 +89,26 @@ a{
 
     hr{
 
-        border: none;
+        /* border: none;
         border-top: 10px solid grey;
         color: #333;
         overflow: visible;
         text-align: center;
-        height: 5px;
+        height: 5px; */
+        height: 6px;
+       width:960px;
+        background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+       border: 0;
 
     }
+
+
+#lists{
+    display:flex;
+    background-image: url("list-bg.png");
+}
+   
+
 
     h5{
         position: absolute;
@@ -108,22 +134,61 @@ a{
   margin-bottom:60px;
  }
  .littlelogo{
- display: inline;
+ position: relative;
+ display: block;
+ margin-left:auto;
+ margin-right:auto;
+ /* z-index:2; */
    /* text-align:center; */
 
  }
- hr{
+ #footline1{
+ position: absolute;
+   width:30%;
+    border: 0;
+ height: 1px;
 
-    border: none;
-    border-top: 1px solid grey;
-    color: #333;
-    overflow: visible;
-    text-align: center;
-    height: 5px;
+ background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+ background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+ background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+ background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
 
 }
+
+#footline2{
+    /* position: absolute; */
+  float:right;
+  width:40%;
+    border: 0;
+   margin-bottom:-10px;
+
+ height: 1px;
+ background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+ background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+ background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+ background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+
+}
+
 
 address{
 
     text-align: center;
 }
+#left-side{
+    padding-left:130px;
+    list-style-type: none;
+}
+
+#right-side{
+  
+    float:right;
+    padding-left: 310px;
+    list-style-type: none;
+}
+/* #footline{
+  
+position: relative;
+ z-index:1;
+
+} */
