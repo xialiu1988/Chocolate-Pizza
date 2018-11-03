@@ -133,16 +133,18 @@ a{
      float: right;
   margin-bottom:60px;
  }
- .littlelogo{
+ /* .littlelogo{
  position: relative;
  display: block;
  margin-left:auto;
  margin-right:auto;
  /* z-index:2; */
-   /* text-align:center; */
+   /* text-align:center; 
+  
 
- }
- #footline1{
+
+ } */
+ /* #footline1{
  position: absolute;
    width:30%;
     border: 0;
@@ -153,17 +155,16 @@ a{
  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
 
-}
+} */
 
 #footline2{
-    /* position: absolute; */
+    /* position: relative;
   float:right;
-  width:40%;
+  width:40%; */
     border: 0;
    margin-bottom:-10px;
-
  height: 1px;
- background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+ background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #0e0d0d);
  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
@@ -172,6 +173,7 @@ a{
 
 
 address{
+    margin-top:20px;
 
     text-align: center;
 }
@@ -186,9 +188,18 @@ address{
     padding-left: 310px;
     list-style-type: none;
 }
-/* #footline{
-  
-position: relative;
- z-index:1;
+#footline{
 
-} */
+    height: 13px;  
+    width: 50px;  
+     
+    position: relative; 
+    left: 50%;  
+    top: -7px;  
+   
+    vertical-align: middle; 
+    text-align: center; 
+    border-radius: 4px; 
+   
+
+}
